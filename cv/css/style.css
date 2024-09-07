@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: rgb(241,240,226);
+    height: 100%;
+}
+
+nav {
+    padding-left: 1em;
+    padding-right: 1em;
+    background: rgb(0,0,0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+footer {
+    align-self: stretch;
+    padding: 1em;
+    background: rgb(0,0,0);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: solid black 2px;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 95, 243);
+}
+
+
+input {
+    margin-top: 1rem;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a:hover {
+    color: orange;
+}
+
+.splash {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(176,175,161,1) 30%, rgba(241,240,226,1) 56%);
+}
+
+section.splash > h1 {
+    margin: 1rem 0rem 1rem 1rem;
+    font-size: 2.5rem;
+    align-self: flex-start;
+    background: none;
+    color: rgb(209, 208, 191);
+}
+
+section.splash > p {
+    font-size: 1.5rem;
+}
+
+.splash > img {
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    
+}
+
+
+section.not-splash > h2 {
+    color: red;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+section.not-splash > p,dl {
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+
+section.not-splash > ul,h3 {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.one-col {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.one-col {
+    height: calc(100% - 50px);
+}
+
+.one-col > section, form, input, textarea {
+    font-size: 2rem;
+}
+
+.one-col > section {
+    width: 100%;
+}
+  
+.three-col {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-left: 2rem;
+    overflow-x: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-bottom: 10px;
+    border: solid black 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 20px rgb(241,240,226);
+    background-color: rgb(241, 241, 233);
+}
+
+.card > img {
+    width: 10rem;
+    align-self: center;
+}
+
+.reenie-beanie-regular {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 600;
+    font-style: normal;
+
+}
+  
+.yuji-boku-regular {
+    font-family: "Yuji Boku", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#last-section {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(176,175,161,1) 30%, rgba(241,240,226,1) 56%);
+}
