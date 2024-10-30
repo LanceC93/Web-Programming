@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: rgb(241,240,226);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 95, 243);
+}
+
+
+input {
+    margin-top: 1rem;
+}
+
+
+a:hover {
+    color: orange;
+}
+
+section.not-splash > h2 {
+    color: red;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+section.not-splash > p,dl {
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+
+section.not-splash > ul,h3 {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.notSplash > dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.one-col {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.one-col {
+    height: calc(100% - 50px);
+}
+
+.one-col > section, form, input, textarea {
+    font-size: 2rem;
+}
+
+.one-col > section {
+    width: 100%;
+}
+  
+.reenie-beanie-regular {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 600;
+    font-style: normal;
+
+}
+  
+.yuji-boku-regular {
+    font-family: "Yuji Boku", serif;
+    font-weight: 400;
+    font-style: normal;
+}

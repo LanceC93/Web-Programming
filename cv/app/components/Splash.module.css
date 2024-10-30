@@ -1,0 +1,27 @@
+.splash > h1 {
+    margin: 1rem 0rem 1rem 1rem;
+    font-size: 2.5rem;
+    align-self: flex-start;
+    background: none;
+    color: rgb(209, 208, 191);
+}
+
+.splash > p {
+    font-size: 1.5rem;
+}
+
+.splash {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(176,175,161,1) 30%, rgba(241,240,226,1) 56%);
+}
+.splash > hr {
+    border: solid black 2px;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}

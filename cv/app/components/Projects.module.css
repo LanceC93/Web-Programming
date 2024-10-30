@@ -1,0 +1,28 @@
+.threeCol {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-left: 2rem;
+    overflow-x: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-bottom: 10px;
+    border: solid black 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 20px rgb(241,240,226);
+    background-color: rgb(241, 241, 233);
+}
+
+.card > img {
+    width: 10rem;
+    align-self: center;
+}
+
+#last {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(176,175,161,1) 30%, rgba(241,240,226,1) 56%);
+}
